@@ -3,12 +3,19 @@
 
 //////////////////Step 1////////////////////
 // Create a new array called 'faveColors' and set it your three favorite colors as strings.
-
+   
 // CODE HERE
-
+    let faveColors = ['Purple', 'Black', 'Red']
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstname, superHeroName, homeTown, superPowers, superPowerXP, profileImage. 
-
+    let me = {
+        firstName: 'Katie',
+        superHeroName: 'Man Bun Man',
+        homeTown: 'Heber City',
+        superPowers: ['Avatar powers', 'crime fighting', 'overthrowing the government'],
+        superPowerXP: Math.floor(Math.random() * 100) +1,
+        profileImage: img.scr = 'https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg'
+    }
 // The firstName key should be your name as a string. 
 
 // The superHeroName key should be something fun, feel free to jazz it up e.g. "Bodacious Bryan". 
@@ -27,10 +34,15 @@
 // Create three variables to hold some data off your me object. The first variable should be 'regularName' that is the value of your firstName on the me object. The next variable is 'superName' which is the value of superHeroName on the me object. Last is 'homeTown' which will be the value of homeTown on the me object
 
 // CODE HERE
-
+const regularName = 'Katie'
+const superName = 'Man Bun Man'
+const homeTown = 'Heber City'
 //////////////////Step 4////////////////////
 //Create a function called 'setColor' that takes in one param called arr. Just to make sure that we only ever have three colors, use splice to trim the array to 3 colors. 
-
+function setColor(arr) {
+    faveColors.splice(2, 0)
+    background(purple, black, red)
+}
 // Next, create a for loop to loop over the array. If any of the colors you chose is 'blue', change it's value to '#4D4DFF' which is just a more appealing color of blue. Outside of the for loop but still inside of setColor, invoke the function called background which will take in three arguments. These arguments should be each item of your array. This is a function we created for you to set the background colors.
 
 // CODE HERE
@@ -40,8 +52,19 @@
 
 // CODE HERE
 
+function setPowers(arr){
+    for(let i = 0; arr.length < i; i++){
+        createLi()
+    }
+}
 
 //////////////////Step 6////////////////////
 //Lastly, create a function called redactInfo that will take in an obj as a paramter. Let's imagine our super hero needs to go undercover and we need to remove all info about them. That is what this function will do. Loop over the object and change each keys value to 'redacted'. Outside of the loop but still in the redactInfo function, run the function redacted() which is a function we created that will update the text on the screen.
 
 // CODE HERE
+
+function redactInfo(obj){
+    for(var prop in obj){
+        
+    }
+}
