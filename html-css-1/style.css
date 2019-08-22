@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background: rgb(77, 76, 76);
+}
+
+.company {
+    color: white;
+    font-size: 3rem;
+    margin: 0 30px;
+}
+
+.top-parent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top {
+    font-size: 1rem;
+    margin: 0 40px 20px 20px;
+    color: white;
+}
+
+.first-box {
+    height: 50vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: yellow;
+    font-size: 4rem;
+}
+
+.three-squares {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.square {
+    height: 300px;
+    width: 300px;
+    background: rgb(139, 226, 178);
+    border-radius: 20px;
+}
+
+.two-rectangles {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rectangle {
+    height: 300px;
+    width: 550px;
+    background: rgb(252, 205, 118)
+}
+
+.bottom {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paragraph {
+    height: 200px;
+    width: 400px;
+}
+
+.picture {
+    height: 250px;
+    width: 350px;
+    margin: 100px;
+}
+
+footer {
+    height: 140px;
+    width: 100%;
+    background: rgb(21, 21, 53);
+}
